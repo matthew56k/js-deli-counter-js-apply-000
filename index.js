@@ -1,5 +1,5 @@
 const takeANumber = (line, cust) => {
-  let line1 = line.length + 1;
+  
   line += cust;
   
   return 'Welcome, ' + cust + '. You are number ' + line1 + ' in line.'
