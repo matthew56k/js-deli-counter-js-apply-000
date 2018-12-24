@@ -1,6 +1,6 @@
 const takeANumber = (line, cust) => {
-  
-  line += cust;
+  line1 = line.length + 1;
+  line.push(cust);
   
   return 'Welcome, ' + cust + '. You are number ' + line1 + ' in line.'
 }
